@@ -98,7 +98,7 @@
 	--background-attachments: #2e344040;
 	--background-search-bar: #2e3440a0;
 	--background-switcher: #2e3440ff;
-	--background-chatbox: #3e445050;
+	--background-chatbox: #3e445650;
 	--background-lights-out: #000;
 	--background-pinned: #2e3440ff;
 	--background-profile-expand: #2e3440ff;
@@ -106,8 +106,10 @@
 	--text-lights-out: #eceff4;
 	--background-titlebar: #2e344050;
 	/* added */
-	--buttons: #2c313d;
-	--popups: #202834;
+	--buttons: #292e3a; 
+	/* --popups: #202834; */
+	--popups: #232832;
+	--popups-2: #313646;
 }
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
@@ -456,5 +458,41 @@
 }
 
 .contentWrapper-3vHNP2 {
-	background-color: var(--popups) !important;
+	background-color: var(--buttons) !important;
+}
+
+.popout-TdhJ6Z {
+	background-color: var(--buttons) !important;
+}
+
+.replyBar-1oi75v, .threadSuggestionBar-3ExSyc {
+	background-color: var(--popups-2) !important;
+} 
+
+.emojiPicker-6YCk8a {
+	background-color: var(--popups);
+}
+
+.container-2McqkF, .elevationBorderHigh-3drnJX, .option-2KkUJO, .searchOption-351dTI {
+	background-color: var(--popups-2) !important;
+}
+
+.option-2KkUJO::after, .searchOption-351dTI::after {
+	background-color: var(--popups-2) !important;
+}
+
+.quickswitcher-pKcM9U {
+	background-color: var(--popups);
+}
+
+.messagesPopoutWrap-3zryHW .layer-2aCOJ3 {
+	background-color: var(--popups-2) !important;
+}
+
+#popout_20613 {
+	background-color: var(--popups-2) !important;
+}
+
+#popout_13727 {
+	background-color: var(--popups-2) !important;
 }
