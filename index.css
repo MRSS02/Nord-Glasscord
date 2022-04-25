@@ -87,6 +87,7 @@
 
 .theme-dark{
 	--background-primary: transparent;
+	--background-primary-no-trans: #2e3440ff;
 	--background-primary-alt: #2e344050;
 	--background-secondary: #2c313d50;
 	--background-secondary-chat: #2e3440a0;
@@ -487,6 +488,10 @@
 
 .messagesPopoutWrap-3zryHW .layer-2aCOJ3 {
 	background-color: var(--popups-2) !important;
+}
+
+.container-3XgAHv {
+	background-color: var(--background-primary-no-trans) !important;
 }
 
 #popout_20613 {
